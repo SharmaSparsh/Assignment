@@ -1,0 +1,48 @@
+[
+    {
+        "name": "Taj Mahal",
+        "category": "heritage",
+        "rating": 4.9,
+        "description": "Iconic 17th-century white marble mausoleum in Agra. A symbol of love and Indian culture.",
+        "image": [
+            "images/taj1.jpg",
+            "images/taj2.jpg",
+            "images/taj3.jpg"
+        ]
+    },
+    {
+        "name": "Marine Drive",
+        "category": "nature",
+        "rating": 4.6,
+        "description": "Scenic coastal road in Mumbai great for evening walks.",
+        "image": "images/marinedrive.jpg"
+    },
+    {
+        "name": "Paranthe Wali Gali",
+        "category": "food",
+        "rating": 4.7,
+        "description": "Famous street for North Indian street food in Delhi.",
+        "image": "images/paranthe.jpg"
+    },
+    {
+        "name": "Charminar",
+        "category": "heritage",
+        "rating": 4.4,
+        "description": "Historic monument and mosque in Hyderabad.",
+        "image": "images/charminar.jpg"
+    },
+    {
+        "name": "Manali Hills",
+        "category": "nature",
+        "rating": 4.8,
+        "description": "A beautiful hill station with snowy mountains.",
+        "image": "images/manali.jpg"
+    },
+    {
+        "name": "Sarafa Bazaar",
+        "category": "food",
+        "rating": 4.5,
+        "description": "Popular night street food market in Indore.",
+        "image": "images/sarafa.jpg"
+    }
+]
