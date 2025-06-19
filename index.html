@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Explorer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🌍 Destination Explorer</h1>
+        <nav>
+            <!-- Category Filter Buttons -->
+            <button onclick="filterPlaces('all')">All</button>
+            <button onclick="filterPlaces('food')">Food</button>
+            <button onclick="filterPlaces('nature')">Nature</button>
+            <button onclick="filterPlaces('heritage')">Heritage</button>
+
+            <!-- Rating Filter Dropdown -->
+            <select id="ratingFilter" onchange="filterByRating(this.value)">
+                <option value="all">All Ratings</option>
+                <option value="4.5">⭐ 4.5 and above</option>
+                <option value="4.0">⭐ 4.0 and above</option>
+            </select>
+        </nav>
+    </header>
+
+    <main id="places-container">
+        <!-- Destination cards will be injected here -->
+    </main>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" onclick="scrollToTop()">⬆️</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
